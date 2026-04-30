@@ -1,48 +1,40 @@
-tennis-dashboard
+# tennis-dashboard
 
-  A modern tennis dashboard built with React, Vite, and TypeScript. Displays live ATP and WTA data — rankings, fixtures, player profiles, match statistics, and     tournament calendars —
+  A modern tennis dashboard built with React, Vite, and TypeScript. Displays live ATP and WTA data — rankings, fixtures, player profiles, match statistics, and tournament calendars —
   sourced from the Matchstat Tennis API via RapidAPI.
 
   ---
-  Stack
 
-  ┌───────────────┬──────────────────────────┐
-  │     Layer     │        Technology        │
-  ├───────────────┼──────────────────────────┤
-  │ Framework     │ React 19 + Vite 8        │
-  ├───────────────┼──────────────────────────┤
-  │ Language      │ TypeScript 6             │
-  ├───────────────┼──────────────────────────┤
-  │ Routing       │ React Router DOM v7      │
-  ├───────────────┼──────────────────────────┤
-  │ Data fetching │ TanStack React Query v5  │
-  ├───────────────┼──────────────────────────┤
-  │ Styling       │ Tailwind CSS v3          │
-  ├───────────────┼──────────────────────────┤
-  │ UI primitives │ Radix UI                 │
-  ├───────────────┼──────────────────────────┤
-  │ Icons         │ @tabler/icons-react      │
-  ├───────────────┼──────────────────────────┤
-  │ Charts        │ Recharts                 │
-  ├───────────────┼──────────────────────────┤
-  │ HTTP client   │ Axios                    │
-  ├───────────────┼──────────────────────────┤
-  │ Flags         │ flagcdn.com (ISO2 codes) │
-  └───────────────┴──────────────────────────┘
+  ## Stack
+
+  | Layer | Technology |
+  |---|---|
+  | Framework | React 19 + Vite 8 |
+  | Language | TypeScript 6 |
+  | Routing | React Router DOM v7 |
+  | Data fetching | TanStack React Query v5 |
+  | Styling | Tailwind CSS v3 |
+  | UI primitives | Radix UI |
+  | Icons | @tabler/icons-react |
+  | Charts | Recharts |
+  | HTTP client | Axios |
+  | Flags | flagcdn.com (ISO2 codes) |
 
   ---
-  Features
 
-  - Dashboard — Stats overview, today's fixtures, top rankings, upcoming events. ATP/WTA toggle.
-  - Players — Search by name across ATP/WTA. Browse top-50 rankings with ATP/WTA toggle. Player profile page with bio, surface win rates, yearly W/L chart, titles by category, and career
-  service stats.
-  - Matches — Fixtures by date or last 7 days. ATP/WTA tab.
-  - Rankings — Full rankings table with country flags, points, positions. ATP/WTA tab.
-  - Events — Tournament calendar by year with surface, tier, and country info. ATP/WTA tab.
-  - Dark mode — Toggle persisted in localStorage. Sidebar adapts to light/dark theme.
+  ## Features
+
+  - **Dashboard** — Stats overview, today's fixtures, top rankings, upcoming events. ATP/WTA toggle.
+  - **Players** — Search by name across ATP/WTA. Browse top-50 rankings with ATP/WTA toggle. Player profile page with bio, surface win rates, yearly W/L chart, titles by category, and
+  career service stats.
+  - **Matches** — Fixtures by date or last 7 days. ATP/WTA tab.
+  - **Rankings** — Full rankings table with country flags, points, positions. ATP/WTA tab.
+  - **Events** — Tournament calendar by year with surface, tier, and country info. ATP/WTA tab.
+  - **Dark mode** — Toggle persisted in localStorage. Sidebar adapts to light/dark theme.
 
   ---
-  Project structure
+
+  ## Project structure
 
   src/
   ├── components/
@@ -60,16 +52,18 @@ tennis-dashboard
   └── types/              # tennis.ts — all API types
 
   ---
-  Getting started
 
-  1. Get a RapidAPI key
+  ## Getting started
 
-  Subscribe to the Tennis API - ATP WTA ITF on RapidAPI (Basic plan or higher).
-  API host: tennis-api-atp-wta-itf.p.rapidapi.com
-  Docs: tennisapidoc.matchstat.com
+  ### 1. Get a RapidAPI key
 
-  2. Configure environment
+  Subscribe to the **Tennis API - ATP WTA ITF** on RapidAPI (Basic plan or higher).
+  API host: `tennis-api-atp-wta-itf.p.rapidapi.com`
+  Docs: `tennisapidoc.matchstat.com`
 
+  ### 2. Configure environment
+
+  ```bash
   cp .env.example .env
 
   Edit .env:
