@@ -33,26 +33,7 @@
   - **Dark mode** — Toggle persisted in localStorage. Sidebar adapts to light/dark theme.
 
   ---
-
-  ## Project structure
-
-  src/
-  ├── components/
-  │   ├── common/         # CountryFlag, ErrorState, EmptyState
-  │   ├── dashboard/      # StatsOverview, TopPlayers, RecentMatchesList, UpcomingEvents
-  │   ├── events/         # EventCard
-  │   ├── layout/         # Layout, Sidebar, Header
-  │   ├── matches/        # MatchCard
-  │   ├── players/        # PlayerCard, PlayerStatsChart
-  │   ├── rankings/       # RankingsTable
-  │   └── ui/             # Radix-based primitives (Button, Card, Tabs, etc.)
-  ├── hooks/              # useRankings, useMatches, usePlayers, useTournaments, useTheme
-  ├── lib/                # api.ts, utils.ts, queryClient.ts
-  ├── pages/              # DashboardPage, PlayersPage, MatchesPage, RankingsPage, EventsPage
-  └── types/              # tennis.ts — all API types
-
-  ---
-
+  
   ## Getting started
 
   ### 1. Get a RapidAPI key
