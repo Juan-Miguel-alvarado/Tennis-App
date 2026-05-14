@@ -3,7 +3,8 @@
   A modern tennis dashboard built with React, Vite, and TypeScript. Displays live ATP and WTA data — rankings, fixtures, player profiles, match statistics, and tournament calendars —
   sourced from the Matchstat Tennis API via RapidAPI.
 
-<img width="1366" height="768" alt="Tennis" src="https://github.com/user-attachments/assets/f2127e05-224b-4358-b37e-1542bb214b63" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/84f99e60-2414-4d29-8037-d80284673565" />
+
 
   ---
 
